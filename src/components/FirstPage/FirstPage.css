@@ -1,4 +1,4 @@
-.firstPage {
+.first-Page {
     height: 100vh;
     padding: 0 10%;
     display: grid;
@@ -16,12 +16,12 @@
 
 .header-firstPage {
     header {
+        padding: 1% 0%;
         justify-self: center;
         height: 60px;
         width: 80%;
         position: fixed;
-        top: 1px;
-        /* left: 1%; */
+        top: 0px;
         background-color: #F2F7F8;
         display: flex;
         justify-content: space-between;

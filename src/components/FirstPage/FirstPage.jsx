@@ -3,7 +3,7 @@ import Footer from "./Footer/Footer";
 
 const FirstPage = () =>{
     return(
-        <div className="firstPage">
+        <div className="first-Page">
             <Header/>
             <Footer/>
         </div>

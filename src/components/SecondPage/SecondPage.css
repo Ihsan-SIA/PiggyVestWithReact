@@ -1,0 +1,70 @@
+.second-Page{
+    .secondPage {
+        height: 60vh;
+        padding: 5% 10%;
+    
+        .body {
+            height: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+    
+            .up {
+                display: flex;
+                align-items: center;
+                justify-self: flex-end;
+    
+                .right {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 25px;
+                    padding-right: 430px;
+                    padding-left: 30px;
+    
+                    h1 {
+                        margin: 0;
+                        font-size: 1.5em;
+                    }
+    
+                    p {
+                        margin: 0;
+                        padding: 20px 0;
+                        font-size: .95em;
+                        color: #3D4F60;
+                    }
+    
+    
+                    div {
+                        display: flex;
+    
+                        img {
+                            padding: 0 15px;
+                            height: 20px;
+                            width: auto;
+                        }
+    
+                        p {
+                            padding: 5px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+    
+            .down {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-self: flex-end;
+    
+                h1 {
+                    font-size: 3em;
+                    margin: 0;
+    
+                }
+                p {
+                    font-size: 1.45em;
+                }
+            }
+        }
+    }
+}
