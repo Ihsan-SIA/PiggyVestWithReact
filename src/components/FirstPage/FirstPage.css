@@ -22,6 +22,7 @@
         width: 80%;
         position: fixed;
         top: 0px;
+        z-index: 100;
         background-color: #F2F7F8;
         display: flex;
         justify-content: space-between;

@@ -1,0 +1,159 @@
+.third-Page{
+    .thirdPage {
+        padding: 0 10%;
+        height: 195vh;
+        display: flex;
+        justify-content: center;
+    
+        .big {
+            width: 1000px;
+            display: grid;
+            grid-template-columns: 490px 490px;
+            justify-content: space-between;
+            nav {
+                background: white;
+                border: none;
+                height: 440px;
+                border-radius: 20px;
+                display: grid;
+                grid-template-rows: 50% 50%;
+                cursor: pointer;
+    
+                
+    
+                box {
+                    padding-left: 25px;
+    
+                    h1 {
+                        font-size: 2.3em;
+                    }
+    
+                    p {
+                        font-size: 1.2em;
+                        padding-right: 30%;
+                    }
+                }
+    
+                .down {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+    
+                    .right {
+                        overflow: hidden;
+    
+                        img {
+                            width: 95%;
+                            height: auto;
+                            transform: scale(0.7) translate(360%, 180%);
+                        }
+                    }
+    
+                    .left {
+                        display: flex;
+                        align-self: flex-end;
+                        gap: 20px;
+                        align-items: center;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+    
+            .auto:hover{
+                background-color: #003399;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .fixed:hover{
+                background-color: #2295F2;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .target:hover{
+                background-color: #069B40;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .flexN:hover{
+                background-color: #E5288E;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .flexD:hover{
+                background-color: black;
+                transition: background-color 0.2s ease-in-out;
+            }
+            .hMoney{
+                background-color: #FF783C;
+                transition: background-color 0.2s ease-in-out;
+            }
+            nav:hover {
+                h1, p, b{
+                    color: white !important;
+                }
+                .right {
+                    img {
+                        display: block;
+                        transform: scale(1);
+                        transition: transform 0.5s ease;
+                    }
+    
+    
+                }
+            }
+    
+            .arrow {
+                width: 25px;
+                height: auto;
+            }
+    
+    
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .thirdPage {
+            padding: 20px;
+            height: auto;
+            min-height: 100vh;
+    
+            .big {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+    
+                nav {
+                    height: auto;
+                    min-height: 300px;
+                    padding: 20px;
+    
+                    box {
+                        padding: 20px;
+    
+                        h1 {
+                            font-size: 1.8em;
+                        }
+    
+                        p {
+                            font-size: 1em;
+                            padding-right: 0;
+                        }
+                    }
+    
+                    .down {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        gap: 20px;
+    
+                        .right {
+                            img {
+                                width: 100%;
+                                transform: none;
+                            }
+                        }
+    
+                        .left {
+                            padding: 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
